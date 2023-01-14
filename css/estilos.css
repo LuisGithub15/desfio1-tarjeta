@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+body {
+    background: hsl(30, 38%, 92%);
+    
+}
+
+.contenedor {
+    width: 40%;
+    max-width: 1000px;
+    margin: 70px auto;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.contenedor .imagen img{
+    width: 50%;
+    float: left;
+    background: #1616a5dc;
+}
+.contenedor .contexto {
+   width: 50%;
+   float: left;
+   padding: 19px 38px;
+   box-sizing: border-box;
+   background: #fff;
+}
+
+.contenedor .contexto h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9pt;
+    letter-spacing: 2px;
+    color: hsl(228, 12%, 48%);
+     margin: 10px 0px 20px 0px;
+}
+    
+.contenedor .contexto h2 {
+    font-family: 'Fraunces', serif;
+    margin-bottom: 25px;
+    line-height: 24pt;
+    font-size: 26pt;
+    color: hsl(212, 21%, 14%)
+}
+.contenedor .contexto .texto{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
+    letter-spacing: 1px;
+    color: hsl(228, 12%, 48%);
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+.contenedor #precio {
+    color: hsl(158, 36%, 37%);
+    font-size: 30pt;
+    font-family: 'Fraunces', serif;
+    margin-right: 35px;
+    float: left;
+}
+.contenedor #precio1 {
+    color: hsl(228, 12%, 48%);
+    text-decoration-line: line-through; 
+}
+.contenedor .boton {
+    background: rgb(61, 107, 52); 
+    margin-top: 40px;  
+   
+}
+.contenedor .botonCompra {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 50px;
+    display: inline-block;
+    border-radius: 10px;
+    
+}
+
